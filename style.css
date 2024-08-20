@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(29, 27, 27);
+    color: antiquewhite;
+    font-size: x-large;
+}
+.image-with-text {
+    display: flex; /* Use flexbox */
+    align-items: center; /* Vertically center items */
+  }
+  
+  .image-with-text .text {
+    margin-left: 20px; /* Add margin for spacing between image and text */
+    /* Style your text as needed */
+  }
+  .italic{
+    font-style: italic;
+    text-align: center;
+  }
+  a {
+    color: inherit; /* or specify your desired color */
+    text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+legend{
+  text-align: center;
+}
+form{
+  text-align: center;
+}
